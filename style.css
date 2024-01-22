@@ -1,0 +1,250 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.backgroundImage{
+    position: relative;
+}
+ .main{
+    position:absolute;
+    top:50%; 
+    left:50%;
+    transform:translate(-50%,-50%)
+  }
+  .navbar{
+    margin:0;
+    display: flex;
+    justify-content: center;
+  }
+.navbar img{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+.text h2{
+    font-size: 45px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.text p{
+    font: size 30px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.buttons{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.text button{
+    border: 3px solid yellow;
+    border-radius: 10px;
+     color: white;
+     background-color:orange;
+     padding-left: 10px;
+     font-size:large;
+     text-align: center;
+     transition: 3s ease;
+     padding-inline: 20px;
+     padding-block: 8px;
+     margin-inline: 10px;
+}
+.text button a{
+    text-decoration: none;
+    color: white;
+}
+.text button:hover{
+    color: red;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+    margin-block: 40px;
+}
+.about image{
+    height: 100rem;
+    width: 50%;
+}
+.cup{ 
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    width: 40rem;
+}
+.cup h2{
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 3%;
+}
+.cup h5{
+    font-weight: bold;
+    font-size: x-large;
+}
+.cup p{
+    font-weight: 800;
+    font-size: medium;
+}
+.vex{
+    background-color: black;
+    color: white;
+    display:flex; 
+    justify-content: space-between;
+    padding: 20px 60px; 
+}
+.vex ul{
+    display:flex;
+}
+.vex ul li{
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.vex h5,h6{
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: larger;
+}
+  .footerText{
+    width: 40%;
+    
+  }
+ .connect{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+ }
+  .connect form{
+    color:orange;
+    background-color:white;
+    width: 15rem;
+    padding: 10px;
+  }
+     input{
+         width: 200px;
+         padding: 2px;
+        height: 30px;
+        color: rgb(17, 2, 2);
+         border-radius: 10px;
+         font-size: 15px;
+          margin-top: 15px;
+          margin: 10px;
+    }
+     .connect form button{
+        background-color:black;
+        color: white;
+        width: 50px;
+        border-radius: 10px;
+        width: 70px;
+     }
+      .connect form button:hover{
+        color: red;
+        transition: 1s ease;  
+     }
+      @media screen and (max-width:768px) {
+        .main{
+            position:absolute;
+            top:60%; 
+            /* left:50%; */
+            /* transform:translate(-50%,-50%) */
+          }
+        .navbar img{
+            height: 30%;
+            width: 30%;
+            border-radius: 50%;
+        }
+        .text h2{
+            font-size: 30px;
+            font-weight: bold;
+            color:black;
+            text-align: center;
+        }
+       .text p{
+         font-weight: bold;
+         color:black;
+         text-align: center;
+         font-size: large;
+         font-weight:bold;
+         }
+         
+         .about {
+         display:block;
+       
+         }
+         .aboutImage{
+            width:50%;
+            margin: auto;
+        }
+        
+          .cup{ 
+          text-decoration: none;
+          font-size: larger;
+          font-weight: bolder;
+          margin:auto;
+          width: 500px;
+          text-align: center;
+          }
+          .vex{
+            background-color: black;
+            color: white;
+            display:block; 
+            justify-content: space-between;
+            padding: 20px 60px;
+            text-align: center; 
+            margin: auto;
+        }
+        .vex h5,h6{
+            font-weight: bold;
+            font-size: larger;
+            margin: bottom 5px; 
+        }
+          .fav{
+            text-align:center;
+             width: 20rem;
+          }
+          .fav h4{
+            font-weight: bold;
+            font-size: larger;
+          }
+          .fav p{
+            font-weight: bold;
+            font-size: large;
+            margin-bottom: 7px; 
+          }
+          .connect{
+            text-decoration: none;
+            font-size: larger;
+            font-weight: bolder;
+            text-align: center;
+         }
+         .connect h2{
+            margin-bottom: 10px;
+         }
+         .connect form{
+            margin: auto;
+            color:orange;
+            background-color:white;
+            width: 15rem;
+            padding: 10px;
+         }
+         
+        input{
+        width: 200px;
+        padding: 2px;
+        height: 30px;
+        color: rgb(17, 2, 2);
+        border-radius: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+         margin: 10px;
+         }
+         }
+         
+    
